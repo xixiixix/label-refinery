@@ -1,3 +1,19 @@
+## 使用AlexNet对cifar10进行实验的结果如下表：
+
+模型                  | 描述                                           | Top-1  | Top-5
+-------------------- |:---------------------------------------------:|:------:|:------:
+`AlexNet^1`            | 使用原始标签进行训练                           | 90.29  | 99.60
+`AlexNet^2`            | 使用`AlexNet^1`得到的软标签进行训练            | 90.30  | 99.62
+`AlexNet^3`            | 使用`AlexNet^2`得到的软标签进行训练            | 90.45  | 99.66
+`AlexNet^4`            | 使用`AlexNet^3`得到的软标签进行训练            | **90.60**  | **99.70**
+`AlexNet^5`            | 使用`AlexNet^4`得到的软标签进行训练            | 90.21  | 99.70
+`AlexNet^6`            | 使用`AlexNet^5`得到的软标签进行训练            | 90.38  | 99.70
+`AlexNet^7`            | 使用`AlexNet^6`得到的软标签进行训练            | 89.66  | 99.73
+`AlexNet^8`            | 使用`AlexNet^7`得到的软标签进行训练            | 89.81  | 99.73
+`AlexNet^9`            | 使用`AlexNet^8`得到的软标签进行训练            | 89.52  | 99.75
+`AlexNet^10`           | 使用`AlexNet^9`得到的软标签进行训练            | 89.48  | 99.72
+`AlexNet^11`           | 使用`AlexNet^10`得到的软标签进行训练           | 89.31  | 99.21
+
 ## Label Refinery: *Improving ImageNet Classification through Label Progression*
 By [Hessam Bagherinezhad](http://homes.cs.washington.edu/~hessam/),
 [Maxwell Horton](http://homes.cs.washington.edu/~mchorton/),
