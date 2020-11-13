@@ -1,3 +1,5 @@
+## 使用`source venv/bin/activate`命令进入虚拟环境（适用于cuda9.0的环境）
+
 ## 使用AlexNet对cifar10进行实验的结果如下表：
 
 模型                  | 描述                                           | Top-1  | Top-5
